@@ -16,8 +16,10 @@ body {
 header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 ul {
@@ -41,20 +43,21 @@ main {
 
 .row-head {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 60px;
     background-color: #1F2937;
+    height: 500px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .head {
-    width: 50%;
-    padding-right: 10%;
+    max-width: 400px;
 }
 
 .row-head img {
-    width: 35%;
-    height: 35%;
+    width: 50%;
+    height: 80%;
     border: 3px solid blue;
     border-radius: 20px;
 }
@@ -70,6 +73,7 @@ main {
 .row-one .container {
     padding: 30px;
     display: flex;
+    justify-content: center;
 }
 
 .item {
@@ -93,3 +97,59 @@ main {
 
 /* row two */
 
+.row-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px;
+    
+}
+
+.row-two p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 50%;
+    margin-bottom: 5px;
+}
+
+.row-two span {
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 25%;
+}
+
+/* row two end */
+
+/* row three */
+
+.row-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.row-three .container {
+    background-color: blue;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 80px 20px 80px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* row three end */
+
+/* footer */
+
+footer {
+    background-color: #1F2937;
+    padding: 15px;
+    text-align: center;
+}
